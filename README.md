@@ -3,9 +3,10 @@ Mobius OS is a GNU/Linux distribution made from scratch. It uses ~~KDE Plasma~~ 
 # WARNING!
 This GNU/Linux distro:
 1. Is **very** experimental *for now*.
-2. Doesn't actually use GNU ~~(unless I'm dumb and busybox is just GNU stuff anyway, afaik its not)~~ *yet*
-3. Has X.org, Wayland, Sway and that's mostly it for graphical stuff. ~~I might have to build xfce4 manually since I cannot suffer building the modular (yet probably resource gobbler when building) KDE Plasma 6~~ 
+2. Doesn't actually use GNU  *yet*
+3. Has X.org, Wayland, Sway and that's mostly it for graphical stuff. 
 # To do
-1. Some package manager that just runs scripts to build target packages (maybe just configure the buildroot one)
+1. A package manager of some sort (idk if i should do prebuilt or not but whatever)
 2. A rootfs 
-~~3. The initramfs (though not strictly neccessary if the filesystem is FAT, NTFS, BTRFS, ext2-4 then the kernel just mounts the rootfs by itself and runs SysV init OpenRC for now before systemd gets added instead) (you fool that isnt all it does so we will do an initramfs)~~ EDIT: sh nor is toybox init working so we ball with no initramfs
+3. Time to make this
+4. Linux 7 (maybe not needed that much)
